@@ -1,7 +1,5 @@
 # Case 02 — Microsoft FY2026 Q4 Earnings Presentation
 
-**Profile:** reference. **Readers:** visitors to the public portfolio. **Purpose:** a self-contained summary of case 02: the problem, the method, the measured results, and the limits, written without Microsoft slide images.
-
 **Independence.** This is an independent portfolio project based on Microsoft's public investor-relations files. It was not commissioned, reviewed, or endorsed by Microsoft. "Microsoft" and its product names are trademarks of Microsoft Corporation.
 
 ## Official sources

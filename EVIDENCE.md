@@ -1,7 +1,5 @@
 # Evidence Summary
 
-**Profile:** reference. **Readers:** visitors who want to check how the portfolio results were produced. **Purpose:** a curated summary of the methods, the financial verification, the main technical decisions, the QA results and limits, and who did what.
-
 All results were recorded in the private working repository on 14 October 2026. The automation and the tests are not published, so visitors cannot rerun them.
 
 ## 1. Reconstruction methodology

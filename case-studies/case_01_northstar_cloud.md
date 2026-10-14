@@ -1,7 +1,5 @@
 # Case 01 — Northstar Cloud Q2 2026 Business Review
 
-**Profile:** reference. **Readers:** visitors to the public portfolio. **Purpose:** a self-contained summary of case 01: the problem, the method, the deliverables, the measured results, and the limits.
-
 **Data disclosure.** Northstar Cloud is a fictional company. All data is synthetic and was made for this portfolio.
 
 ## The business problem

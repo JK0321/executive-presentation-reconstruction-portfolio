@@ -1,7 +1,5 @@
 # Executive Presentation Reconstruction & Financial Validation
 
-**Profile:** reference. **Readers:** visitors to the public portfolio (hiring managers, consulting clients, reviewers). **Purpose:** the landing page of the public portfolio: what the two case studies show, the recorded validation results, and the project scope.
-
 Portfolio proof of concept | Python · PowerPoint · Financial Analysis · Automated QA
 
 An AI-assisted workflow for reconstructing editable PowerPoint presentations, validating financial information against primary sources, and redesigning decks for executive decisions.
