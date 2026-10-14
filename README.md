@@ -1,5 +1,9 @@
 # Executive Presentation Reconstruction & Financial Validation
 
+**[Explore the Interactive Portfolio](https://jk0321.github.io/executive-presentation-reconstruction-portfolio/)**
+
+Downloads: [Northstar Cloud executive deck (PowerPoint)](deliverables/northstar_cloud/executive_revenue_review_v5.pptx) · [PDF](deliverables/northstar_cloud/executive_revenue_review_v5.pdf) · [Microsoft FY2026 Q4 calculated metrics (CSV)](data/microsoft_fy2026_q4_calculated_metrics.csv)
+
 Portfolio proof of concept | Python · PowerPoint · Financial Analysis · Automated QA
 
 An AI-assisted workflow for reconstructing editable PowerPoint presentations, validating financial information against primary sources, and redesigning decks for executive decisions.
