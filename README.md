@@ -20,7 +20,7 @@ An AI-assisted workflow for reconstructing editable PowerPoint presentations, va
 | Unit tests | 82 passed |
 | Microsoft slide values against the official financial statements | 85 of 85 match |
 | Reconstruction text against an internally checked reference transcription | 7 of 7 slides match |
-| OCR text-agreement test (threshold 0.98) | FAIL on 3 of 7 slides — retained; the OCR tool cannot reach 0.98 even on known text |
+| OCR text-agreement test (threshold 0.98) | FAIL on 3 of 7 slides — retained; the OCR tool cannot reach 0.98 even on known text. [Detailed explanation](https://jk0321.github.io/executive-presentation-reconstruction-portfolio/#ocr-test) |
 | Independent review | NOT TESTED |
 | Hands-on accessibility testing | NOT TESTED |
 

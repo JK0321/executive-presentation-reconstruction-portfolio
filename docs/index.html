@@ -212,17 +212,20 @@
           <tr><td data-label="Check">Unit tests in the repository now (8 added later for public-repository staging and this website)</td><td data-label="Result"><span class="badge pass">PASS</span> 90 of 90</td><td data-label="Kind of evidence">Automated</td></tr>
           <tr><td data-label="Check">Microsoft slide values against the official financial statements</td><td data-label="Result"><span class="badge pass">PASS</span> 85 of 85</td><td data-label="Kind of evidence">Automated</td></tr>
           <tr><td data-label="Check">Reconstruction text against an internally checked reference transcription</td><td data-label="Result"><span class="badge pass">PASS</span> 7 of 7 slides</td><td data-label="Kind of evidence">Automated comparison; reference corrections inspected internally</td></tr>
-          <tr><td data-label="Check">OCR text-agreement test, threshold 0.98</td><td data-label="Result"><span class="badge fail">FAIL</span> 3 of 7 slides (0.978, 0.969, 0.976)</td><td data-label="Kind of evidence">Automated; result retained</td></tr>
+          <tr><td data-label="Check">OCR text-agreement test, threshold 0.98</td><td data-label="Result"><span class="badge fail">FAIL</span> 3 of 7 slides (F1 0.978, 0.969, 0.976). <a href="#ocr-test">Detailed explanation</a></td><td data-label="Kind of evidence">Automated; result retained</td></tr>
           <tr><td data-label="Check">Independent review</td><td data-label="Result"><span class="badge open">NOT TESTED</span></td><td data-label="Kind of evidence">—</td></tr>
           <tr><td data-label="Check">Hands-on accessibility testing</td><td data-label="Result"><span class="badge open">NOT TESTED</span></td><td data-label="Kind of evidence">—</td></tr>
         </tbody>
       </table>
     </div>
-    <details>
-      <summary>Why the OCR test fails, and what the second text measure adds</summary>
-      <p>The original Microsoft slides contain no live text, so their words had to be read by optical character recognition (OCR). Run on the reconstruction, whose text is known exactly, the same OCR reaches only 0.957 to 0.974 on five slides. The tool therefore cannot decide the 0.98 threshold there, whatever the reconstruction looks like. The failure is kept as recorded; the threshold was not lowered.</p>
-      <p>The second measure needs no OCR on the reconstruction side. It compares the reconstruction's own text with a reference transcription of the original: the OCR text corrected in 43 places where it misread or missed a token. Each correction was inspected internally on an image of the original. An independent reviewer has not checked these corrections.</p>
-    </details>
+    <article class="panel ocr-explain" id="ocr-test" aria-labelledby="h-ocr-test">
+      <h3 id="h-ocr-test">OCR text test: FAIL on 3 of 7 slides (result retained)</h3>
+      <p>The original Microsoft slides contain no live text, so their words were read by optical character recognition (OCR). The OCR-based text-agreement test did not reach its 0.98 threshold on three of the seven reconstructed slides (F1 0.978, 0.969, and 0.976). The threshold was not lowered.</p>
+      <p>A self-check shows a limit of the measurement tool. When the same OCR read the reconstructed slides, whose text is known exactly, it scored only F1 0.957 to 0.974 on five slides. On those slides the OCR cannot decide the 0.98 threshold.</p>
+      <p>A supplementary check compared the reconstruction's own text with a reference transcription of the original slide images. The reference is the original OCR text with 43 documented corrections, each inspected internally on an image of the original slide.</p>
+      <p><strong>Supplementary result:</strong> all seven slides matched this internally checked reference (F1 1.000, no unexplained differences). Separately, the 85 financial values shown on the original slides agree with Microsoft's official financial statements, one of them within the rounding displayed, and all 85 corresponding values are present in the reconstruction.</p>
+      <p>The OCR failures remain documented; the supplementary check does not resolve or replace them. Independent verification of the reference transcription: <span class="badge open">NOT TESTED</span></p>
+    </article>
     <details>
       <summary>Accessibility checks that were automated</summary>
       <p>Text size, contrast, slide titles, the start of the reading order, descriptions on charts and tables, and the document title and language were checked by script on both executive decks and pass. These checks do not replace the PowerPoint Accessibility Checker or a screen-reader test, which have not been run.</p>
