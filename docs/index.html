@@ -18,6 +18,7 @@
       <ul>
         <li><a href="#overview">Overview</a></li>
         <li><a href="#method">Method</a></li>
+        <li><a href="#standard">Standard</a></li>
         <li><a href="#northstar">Northstar Cloud</a></li>
         <li><a href="#microsoft">Microsoft FY2026 Q4</a></li>
         <li><a href="#qa">QA &amp; evidence</a></li>
@@ -34,17 +35,22 @@
   <div class="wrap">
     <p class="eyebrow">Portfolio proof of concept · Python · PowerPoint · Financial analysis · Automated QA</p>
     <h1 id="title">Executive Presentation Reconstruction &amp; Financial Validation</h1>
-    <p class="lead">Two case studies show how an executive deck is checked against its sources, rebuilt as editable PowerPoint, and redesigned for a decision, with every result measured, dated, and stated with its limits.</p>
+    <p class="lead">Two public case studies show how an executive deck is checked against its sources, rebuilt as editable PowerPoint, and redesigned for a decision, with every result measured, dated, and stated with its limits.</p>
     <div class="cards">
       <a class="card" href="#northstar">
         <span class="card-kicker">Case 01 · fictional company, synthetic data</span>
         <span class="card-title">Northstar Cloud</span>
-        <span class="card-text">A weak four-slide business review turned into an eight-slide executive deck. Every number traced to source.</span>
+        <span class="card-text">A weak four-slide business review turned into a nine-slide presenter deck and a ten-slide leave-behind. 96 of 96 figures traced in each.</span>
       </a>
       <a class="card" href="#microsoft">
         <span class="card-kicker">Case 02 · public financial disclosures</span>
         <span class="card-title">Microsoft FY2026 Q4</span>
         <span class="card-text">85 slide values checked against the official statements; seven slides rebuilt blind from images and measured.</span>
+      </a>
+      <a class="card" href="#standard">
+        <span class="card-kicker">Working standard · DRAFT / NOT CERTIFIED</span>
+        <span class="card-title">Sales presentation standard</span>
+        <span class="card-text">Assertion titles, the decision first, an evidence register, two delivery modes, and no slide without evidence.</span>
       </a>
     </div>
   </div>
@@ -65,14 +71,15 @@
     <div class="split">
       <div class="panel">
         <h3>Human direction</h3>
-        <p>The human project lead established the objectives, selected the direction and the two cases, defined the requirements and acceptance criteria, and evaluated the decisions, including what may be published.</p>
+        <p>The human project lead established the objectives, selected the direction and the cases, defined the requirements and acceptance criteria, and evaluated the decisions, including what may be published.</p>
       </div>
       <div class="panel">
         <h3>AI-assisted implementation</h3>
         <p>Claude, an AI assistant by Anthropic, assisted with implementation: writing code and tests, running the automated validation, carrying out internal inspections, and drafting analyses and documents under the project lead's direction.</p>
       </div>
     </div>
-    <p class="note"><strong>Review status.</strong> All checks so far are automated tests or internal inspections. No independent human reviewer has checked the work yet.</p>
+    <p>A third case study is kept private; it can be shown on request.</p>
+    <p class="note"><strong>Review status.</strong> All checks so far are automated tests or internal inspections, including reviews by AI models. No independent human reviewer has checked the work yet.</p>
   </div>
 </section>
 
@@ -104,9 +111,83 @@
   </div>
 </section>
 
-<section id="northstar" aria-labelledby="h-northstar">
+<section id="standard" aria-labelledby="h-standard">
   <div class="wrap">
-    <h2 id="h-northstar">C. Case study 01 — Northstar Cloud</h2>
+    <h2 id="h-standard">C. The working standard for sales presentations</h2>
+    <p class="status-line"><span class="badge draft">DRAFT / NOT CERTIFIED</span> A house standard proposed for this project. No deck is claimed to conform to it, and no score has been awarded against it.</p>
+    <p>The project lead adopted a draft Sales Presentation Engineering Standard as the project's working gold standard for presentations. The Case 01 and Case 02 redesigns were rebuilt to it. It is written for business-to-business sales decks; here the "buyer" is read as the decision-maker who acts on the deck.</p>
+    <h3 class="sub">What it means in practice</h3>
+    <div class="grid rules">
+      <article class="panel">
+        <h3>Assertion headlines</h3>
+        <p>Every title states a conclusion the evidence supports, not a topic. "Revenue numbers" becomes "Revenue grew $0.6M but finished $0.2M (−4.0%) below plan".</p>
+      </article>
+      <article class="panel">
+        <h3>Decision first</h3>
+        <p>The first slide gives the answer and the decision requested. The closing slides give the options, the decision, and a next action for each owner.</p>
+      </article>
+      <article class="panel">
+        <h3>Evidence register</h3>
+        <p>Every figure on a slide is a row in a claims register: the source cell or calculation, the unit, the period, and the delivery mode. A figure typed by hand fails the check.</p>
+      </article>
+      <article class="panel">
+        <h3>Presenter deck and leave-behind</h3>
+        <p>Two files from one storyboard. The presenter deck keeps slides short and puts the talk track in the speaker notes. The standalone leave-behind adds a reading guide, full caveats, and a glossary. Titles, figures, and slide order are the same.</p>
+      </article>
+      <article class="panel">
+        <h3>No slide without evidence</h3>
+        <p>A narrative step that has no evidence is omitted, never filled with invented content. The data-notes slide lists each omitted step and the reason.</p>
+      </article>
+      <article class="panel">
+        <h3>Gates and tests</h3>
+        <p>Seven stage gates and ten tests. Each result is reported as an automated check, an internal review, or <strong>NOT TESTED</strong>. A test that needs people stays open until people do it.</p>
+      </article>
+    </div>
+
+    <div class="table-scroll">
+      <table>
+        <caption>Stage gates and their status for Case 01 version 6</caption>
+        <thead>
+          <tr><th scope="col">Gate</th><th scope="col">What it asks</th><th scope="col">Status</th></tr>
+        </thead>
+        <tbody>
+          <tr><td data-label="Gate">G0</td><td data-label="What it asks">Audience, decision, and next action defined</td><td data-label="Status">Defined in the project's application specification, approved by the project lead</td></tr>
+          <tr><td data-label="Gate">G1</td><td data-label="What it asks">Evidence accepted</td><td data-label="Status"><span class="badge pass">PASS</span> automated: 96 of 96 figures traced in each mode</td></tr>
+          <tr><td data-label="Gate">G2</td><td data-label="What it asks">Narrative approved</td><td data-label="Status"><span class="badge open">HUMAN REVIEW REQUIRED</span> AI-model reviews only so far</td></tr>
+          <tr><td data-label="Gate">G3</td><td data-label="What it asks">Editable, renderable PowerPoint in both modes</td><td data-label="Status"><span class="badge pass">PASS</span> automated checks; renders inspected internally</td></tr>
+          <tr><td data-label="Gate">G4</td><td data-label="What it asks">Numerical accuracy and accessibility</td><td data-label="Status">Numbers and programmatic accessibility checks automated. Accessibility Checker and screen reader <span class="badge open">NOT TESTED</span></td></tr>
+          <tr><td data-label="Gate">G5</td><td data-label="What it asks">Independent comprehension test</td><td data-label="Status"><span class="badge open">NOT TESTED</span></td></tr>
+          <tr><td data-label="Gate">G6</td><td data-label="What it asks">Outcome tracking plan</td><td data-label="Status">Plan only: the deck is not used in a real meeting</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <details>
+      <summary>The ten tests</summary>
+      <ul>
+        <li>T01 claims and T02 numbers: automated.</li>
+        <li>T03 text fidelity: automated (slide text against the storyboard).</li>
+        <li>T04 OCR: not applicable to Case 01 (the original is editable); in Case 02 the OCR result stays FAIL as recorded.</li>
+        <li>T05 visual and T06 editability: automated checks plus internal inspection.</li>
+        <li>T07 accessibility (PowerPoint Accessibility Checker, screen reader): NOT TESTED.</li>
+        <li>T08 comprehension by five independent reviewers: NOT TESTED.</li>
+        <li>T09 stakeholder consensus and T10 outcomes: not applicable as written; nothing is sold and the deck is not deployed.</li>
+      </ul>
+    </details>
+
+    <h3 class="sub">Changed / Unchanged / Why: one record per slide</h3>
+    <p>Every redesigned slide has a record in a reasoning log that states what changed, what was deliberately kept, and why. Unchanged elements are recorded as carefully as changes, so a reviewer can see what was judged correct. Example, Case 01 version 6, revenue slide:</p>
+    <dl class="cuw">
+      <div><dt>Changed</dt><dd>The chart has a title with its unit and period. The first bar is labelled "Q1 2026 (prior quarter)", so each scenario has one fill.</dd></div>
+      <div><dt>Unchanged</dt><dd>The slide title, the chart type, the three source values ($4.2M, $4.8M, $5.0M), the colours, and the zero-based axis.</dd></div>
+      <div><dt>Why</dt><dd>The values were correct. The design checks ask for a unit and period on every chart and one fill per scenario.</dd></div>
+    </dl>
+    <p class="note">This is a working method, not a certification. The standard draws on published practice, but no compliance with any external standard is claimed. Reviewer scores are <strong>NOT ASSESSED</strong>.</p>
+  </div>
+</section>
+
+<section id="northstar" class="alt" aria-labelledby="h-northstar">
+  <div class="wrap">
+    <h2 id="h-northstar">D. Case study 01 — Northstar Cloud</h2>
     <p class="disclosure"><strong>Fictional company, synthetic data.</strong> Northstar Cloud does not exist. All data was created for this portfolio.</p>
     <div class="split">
       <div>
@@ -115,55 +196,70 @@
         <h3>Source material</h3>
         <p>The original PowerPoint file and one data file: seven metrics (revenue, New ARR, gross margin, net revenue retention, pipeline coverage, enterprise win rate, sales cycle), each for Q1 2026, Q2 2026, and the Q2 plan.</p>
         <h3>How the figures were checked</h3>
-        <p>The data passed 12 of 14 data-quality checks; 2 cannot be tested with the data supplied (no segment data). Every metric is computed once, in one calculation engine. All 98 figures and chart points on the final deck are produced by that engine and traced to a source cell or a documented calculation.</p>
-      </div>
-      <div>
+        <p>The data passed 12 of 14 data-quality checks; 2 cannot be tested with the data supplied (no segment data). Every metric is computed once, in one calculation engine. All 96 figures and chart points on each version 6 deck are produced by that engine and traced to a source cell or a documented calculation: 96 of 96 in the presenter deck and 96 of 96 in the leave-behind.</p>
         <h3>Reconstruction, then redesign</h3>
         <p>The original deck was first rebuilt faithfully from a declared specification and compared with the original: 596 properties, 0 material differences, 0.0000 % changed pixels on all four slides. Only then was it redesigned.</p>
+      </div>
+      <div>
+        <h3>Version 6: two delivery modes</h3>
+        <ul class="ticks">
+          <li><strong>Presenter deck, 9 slides:</strong> short slides; the talk track and the full caveats are in the speaker notes.</li>
+          <li><strong>Standalone leave-behind, 10 slides:</strong> a reading guide first, then the same slides with a "so what" line, full caveats, and a glossary.</li>
+        </ul>
         <h3>What changed for the executive reader</h3>
         <ul class="ticks">
           <li>The first slide states the answer: revenue grew 14.3 % but reached 96 % of plan.</li>
           <li>Titles state conclusions, not topics.</li>
-          <li>Every value carries its period and its plan comparison.</li>
+          <li>Every value carries its period and its plan comparison, and every slide with a figure has a source line.</li>
           <li>A derived figure (implied gross profit, USD 0.10 M below plan although margin beat plan) is labelled with its assumption.</li>
           <li>Pipeline coverage is described as a rank, the lowest gap closure of the seven metrics (40 %), not as a prediction.</li>
-          <li>Next steps become three owned evidence requests and one decision.</li>
+          <li>A new options slide compares signing off the Q3 plan now with reviewing the evidence first; costs are stated as unknown.</li>
+          <li>The decision slide comes with three owned evidence requests and a next action for the executive team.</li>
+          <li>Four narrative steps with no evidence (cost of inaction, market insight, proof, business case) are omitted and listed with their reasons.</li>
         </ul>
+        <p>Automated deck checks: presenter deck 100 pass, 0 fail; leave-behind 110 pass, 0 fail.</p>
       </div>
     </div>
 
-    <h3 class="sub">Before and after</h3>
-    <p class="hint">Each image shows the original slide on the left and the redesigned slide on the right. Select an image to open it at full size.</p>
+    <h3 class="sub">Before and after (version 6)</h3>
+    <p class="hint">Each image shows the original slide on the left and the version 6 presenter slide on the right. Select an image to open it at full size.</p>
     <div class="compare">
       <figure>
-        <a href="assets/northstar/before_after/01_opening.png"><img src="assets/northstar/before_after/01_opening.png" width="1872" height="578" loading="lazy" alt="Before: original slide 1, an agenda titled Quarterly Business Review listing Revenue update, Sales metrics, and What is next. After: redesigned slide 1 with the title Q2 revenue grew 14.3% but reached 96% of plan; three KPI tiles for revenue ($4.8M), gross margin (74%), and pipeline coverage (2.9x); and a decision request."><span class="sr-only"> Opens the full-size image.</span></a>
+        <a href="assets/northstar/before_after/v6_01_opening.png"><img src="assets/northstar/before_after/v6_01_opening.png" width="1872" height="578" loading="lazy" alt="Before: original slide 1, an agenda titled Quarterly Business Review listing Revenue update, Sales metrics, and What is next. After: version 6 slide 1 with the title Q2 revenue grew 14.3% but reached 96% of plan; pipeline coverage closed the least of its gap. Three KPI tiles show revenue $4.8M, 96% of the $5.0M plan; gross margin 74%, the only metric ahead of plan; and pipeline coverage 2.9x, closed 40% of its gap. Below them, the decision requested and a source line."><span class="sr-only"> Opens the full-size image.</span></a>
         <figcaption><strong>Opening.</strong> An agenda becomes the answer, three KPIs with their plan comparison, and the decision requested.</figcaption>
       </figure>
       <figure>
-        <a href="assets/northstar/before_after/02_revenue.png"><img src="assets/northstar/before_after/02_revenue.png" width="1872" height="578" loading="lazy" alt="Before: original slide 2, Revenue numbers, a text list of Q1 revenue $4.2M, Q2 revenue $4.8M, plan $5.0M, and New ARR $1.4M. After: redesigned slide 3, Revenue grew $0.6M but finished $0.2M below plan, with a zero-based column chart of Q1 actual, Q2 plan, and Q2 actual, and a panel showing 96.0% plan attainment, 19.0% growth required, and 14.3% delivered."><span class="sr-only"> Opens the full-size image.</span></a>
+        <a href="assets/northstar/before_after/v6_02_revenue.png"><img src="assets/northstar/before_after/v6_02_revenue.png" width="1872" height="578" loading="lazy" alt="Before: original slide 2, Revenue numbers, a text list of Q1 revenue $4.2M, Q2 revenue $4.8M, plan $5.0M, and New ARR $1.4M. After: version 6 slide 3, Revenue grew $0.6M but finished $0.2M (minus 4.0%) below plan, with a zero-based column chart titled Revenue, USD millions, Q1 2026 and Q2 2026, showing Q1 2026 prior quarter $4.2M, Q2 2026 plan $5.0M, and Q2 2026 actual $4.8M, and a panel showing 96.0% plan attainment, 19.0% growth required, and 14.3% delivered."><span class="sr-only"> Opens the full-size image.</span></a>
         <figcaption><strong>Revenue.</strong> A list of values becomes a zero-based chart with the gap, the growth the plan required, and the growth delivered.</figcaption>
       </figure>
       <figure>
-        <a href="assets/northstar/before_after/03_kpis.png"><img src="assets/northstar/before_after/03_kpis.png" width="1872" height="578" loading="lazy" alt="Before: original slide 3, Other KPIs, five values without period or plan. After: redesigned slide 5, Every metric improved on Q1, but only gross margin reached plan, a scorecard table of seven metrics with Q1, Q2, plan, change, variance, and status in words."><span class="sr-only"> Opens the full-size image.</span></a>
+        <a href="assets/northstar/before_after/v6_03_kpis.png"><img src="assets/northstar/before_after/v6_03_kpis.png" width="1872" height="578" loading="lazy" alt="Before: original slide 3, Other KPIs, five values without period or plan. After: version 6 slide 5, Every metric improved on Q1, but only gross margin reached plan, a scorecard table of seven metrics with Q1 2026, Q2 2026, Q2 plan, change, variance, and status in words; only gross margin is Ahead of plan."><span class="sr-only"> Opens the full-size image.</span></a>
         <figcaption><strong>KPIs.</strong> Five unexplained values become a seven-metric scorecard; status is given in words as well as colour.</figcaption>
       </figure>
       <figure>
-        <a href="assets/northstar/before_after/04_next_steps.png"><img src="assets/northstar/before_after/04_next_steps.png" width="1872" height="578" loading="lazy" alt="Before: original slide 4, Next steps, listing Discuss revenue, Review pipeline, and Talk about customers. After: redesigned slide 7, Before Q3 plan sign-off, leadership needs three pieces of evidence, a table of owner function, request, reason, and trigger, with a decision request."><span class="sr-only"> Opens the full-size image.</span></a>
-        <figcaption><strong>Next steps.</strong> Three topics become three owned evidence requests, each tied to the data that triggered it.</figcaption>
+        <a href="assets/northstar/before_after/v6_04_next_steps.png"><img src="assets/northstar/before_after/v6_04_next_steps.png" width="1872" height="578" loading="lazy" alt="Before: original slide 4, Next steps, listing Discuss revenue, Review pipeline, and Talk about customers. After: version 6 slide 8, Before Q3 plan sign-off, leadership needs three pieces of evidence. The decision requested comes first, then a table of owner function, next action, why it matters, and the trigger in the Q2 data, for Sales Operations, Customer Success, Finance, and the CEO and executive team."><span class="sr-only"> Opens the full-size image.</span></a>
+        <figcaption><strong>Next steps.</strong> Three topics become the decision, three owned evidence requests, and a next action for the executive team.</figcaption>
       </figure>
     </div>
 
-    <div class="downloads" role="group" aria-label="Northstar Cloud downloads">
-      <a class="button" href="assets/northstar/executive_revenue_review_v5.pptx" download>Download the executive deck (PowerPoint, 8 slides)</a>
-      <a class="button secondary" href="assets/northstar/executive_revenue_review_v5.pdf">Open the PDF version</a>
+    <div class="downloads" role="group" aria-label="Northstar Cloud version 6 downloads">
+      <a class="button" href="assets/northstar/executive_revenue_review_v6.pptx" download>Presenter deck (PowerPoint, 9 slides)</a>
+      <a class="button secondary" href="assets/northstar/executive_revenue_review_v6.pdf">Presenter deck (PDF)</a>
+      <a class="button" href="assets/northstar/executive_revenue_review_v6_leave_behind.pptx" download>Leave-behind (PowerPoint, 10 slides)</a>
+      <a class="button secondary" href="assets/northstar/executive_revenue_review_v6_leave_behind.pdf">Leave-behind (PDF)</a>
     </div>
-    <p class="note"><strong>Limits.</strong> Synthetic data cannot be verified against business records. The PowerPoint Accessibility Checker, a screen-reader test, and independent review have not been done.</p>
+    <p><a href="assets/northstar/claims_register_v6.csv">Download the version 6 claims register (CSV: 96 figures per deck, each with its source or calculation, unit, and period)</a></p>
+    <div class="panel previous">
+      <h3>Previous version: version 5 (archived)</h3>
+      <p>Version 5, an 8-slide deck with 98 of 98 figures traced, is kept for before-and-after comparison: <a href="assets/northstar/previous_versions/v5/executive_revenue_review_v5.pptx" download>PowerPoint</a> and <a href="assets/northstar/previous_versions/v5/executive_revenue_review_v5.pdf">PDF</a>.</p>
+    </div>
+    <p class="note"><strong>Limits.</strong> Synthetic data cannot be verified against business records. The PowerPoint Accessibility Checker, a screen-reader test, an independent comprehension test, and independent review have not been done.</p>
   </div>
 </section>
 
-<section id="microsoft" class="alt" aria-labelledby="h-microsoft">
+<section id="microsoft" aria-labelledby="h-microsoft">
   <div class="wrap">
-    <h2 id="h-microsoft">D. Case study 02 — Microsoft FY2026 Q4</h2>
+    <h2 id="h-microsoft">E. Case study 02 — Microsoft FY2026 Q4</h2>
     <p class="disclosure"><strong>Independent work.</strong> This case study was developed independently from Microsoft's public investor-relations files. It was not commissioned, reviewed, sponsored, or endorsed by Microsoft. "Microsoft" is a trademark of Microsoft Corporation.</p>
     <div class="split">
       <div>
@@ -181,25 +277,67 @@
         <h3>How accuracy was measured</h3>
         <p>Layout position (median offset 0.06 % to 0.17 % of the slide), type size (median height ratio 0.984 to 1.023), editability (0 pictures), and text, measured two separate ways. Later correction rounds, which were not blind, fixed eight measured defects such as underline width, type size, line wraps, and a shadow under rules.</p>
         <h3>How the redesign was evaluated</h3>
-        <p>A nine-slide executive version was built from registered figures only: all 117 figures trace to an official cell or formula, each statement is tagged as fact, analysis, or question, and automated deck checks pass. The review of the original found no figure needing correction; the redesign answers access and communication issues and keeps what works.</p>
+        <p>The first executive version (nine slides) was built from registered figures only: all 117 figures trace to an official cell or formula, each statement is tagged as fact, analysis, or question, and automated deck checks pass. The review of the original found no figure needing correction; the redesign answers access and communication issues and keeps what works.</p>
       </div>
+    </div>
+    <h3 class="sub">Redesign version 2: described in text only</h3>
+    <p>Version 2 rebuilds the executive version to the working standard (section C) in two delivery modes: a 10-slide presenter deck and an 11-slide standalone leave-behind with a reading guide first. A new decision slide asks the reader to agree which of three open questions to take to management; it gives no investment advice. The data-notes slide lists the omitted steps (market insight, future state as a scope choice, business case) and the reasons. The version 2 decks are not published because they present Microsoft material.</p>
+    <div class="table-scroll">
+      <table>
+        <caption>Case 02 results recorded on 17 October 2026</caption>
+        <thead>
+          <tr><th scope="col">Check</th><th scope="col">Result</th><th scope="col">Kind of evidence</th></tr>
+        </thead>
+        <tbody>
+          <tr><td data-label="Check">Figures of the first version traced in version 2</td><td data-label="Result"><span class="badge pass">PASS</span> 117 of 117, plus 1 declared addition in the opening title</td><td data-label="Kind of evidence">Automated</td></tr>
+          <tr><td data-label="Check">Automated deck checks, presenter deck (10 slides)</td><td data-label="Result"><span class="badge pass">PASS</span> 110 pass, 0 fail</td><td data-label="Kind of evidence">Automated</td></tr>
+          <tr><td data-label="Check">Automated deck checks, leave-behind (11 slides)</td><td data-label="Result"><span class="badge pass">PASS</span> 120 pass, 0 fail</td><td data-label="Kind of evidence">Automated</td></tr>
+          <tr><td data-label="Check">Design checks of the standard, both decks</td><td data-label="Result"><span class="badge pass">PASS</span> 0 fail; 1 warning per deck kept (the heuristic headline check found no verb in the summary title)</td><td data-label="Kind of evidence">Automated</td></tr>
+          <tr><td data-label="Check">Reconstruction text against the internally checked reference transcription</td><td data-label="Result"><span class="badge pass">PASS</span> 7 of 7 slides, F1 1.000</td><td data-label="Kind of evidence">Automated comparison; reference corrections inspected internally</td></tr>
+          <tr><td data-label="Check">OCR text-agreement test, threshold 0.98</td><td data-label="Result"><span class="badge fail">FAIL</span> 3 of 7 slides, kept as recorded; not rerun for version 2. <a href="#ocr-test">Detailed explanation</a></td><td data-label="Kind of evidence">Automated; result retained</td></tr>
+        </tbody>
+      </table>
     </div>
     <div class="panel withheld">
       <h3>Withheld from public distribution</h3>
       <ul>
         <li>The original Microsoft files and any images of their slides: Microsoft content is under copyright and no redistribution license is granted.</li>
         <li>The faithful reconstruction: it is a derived copy of Microsoft's slide design.</li>
-        <li>The executive redesign deck: it presents Microsoft material; the project lead decided not to publish it.</li>
+        <li>The executive redesign decks, versions 1 and 2, and their images: they present Microsoft material; the project lead decided not to publish them.</li>
       </ul>
       <p>What is published is the method, the results, and the independently calculated metrics.</p>
     </div>
   </div>
 </section>
 
-<section id="qa" aria-labelledby="h-qa">
+<section id="qa" class="alt" aria-labelledby="h-qa">
   <div class="wrap">
-    <h2 id="h-qa">E. Quality assurance and evidence</h2>
-    <p>Results recorded on 14 October 2026 in the private working repository. The automation, the tests, and some source files are private, so they cannot be rerun from the public repository.</p>
+    <h2 id="h-qa">F. Quality assurance and evidence</h2>
+    <article class="panel status" aria-labelledby="h-status">
+      <h3 id="h-status">Current status, 17 October 2026</h3>
+      <div class="grid two">
+        <div>
+          <p><strong>Done: internal checks only</strong></p>
+          <ul>
+            <li>Automated scripts: figure tracing, deck checks, design checks, and unit tests.</li>
+            <li>Internal inspection of every rendered slide in both delivery modes.</li>
+            <li>Reviews of the first builds by two AI models; their findings were fixed. These are internal reviews, not independent validation.</li>
+            <li>Case 02 OCR text-agreement test: <span class="badge fail">FAIL</span> kept as recorded (<a href="#ocr-test">explanation</a>).</li>
+          </ul>
+        </div>
+        <div>
+          <p><strong>Not done</strong></p>
+          <ul>
+            <li>PowerPoint Accessibility Checker: <span class="badge open">NOT TESTED</span></li>
+            <li>Screen-reader test: <span class="badge open">NOT TESTED</span></li>
+            <li>Independent comprehension test (five reviewers): <span class="badge open">NOT TESTED</span></li>
+            <li>Independent human review: <span class="badge open">NOT TESTED</span></li>
+            <li>Reviewer scores: <span class="badge open">NOT ASSESSED</span></li>
+          </ul>
+        </div>
+      </div>
+    </article>
+    <p>The table below gives the results recorded on 14 October 2026 in the private working repository. The automation, the tests, and some source files are private, so they cannot be rerun from the public repository.</p>
     <div class="table-scroll">
       <table>
         <caption>Recorded validation results, 14 October 2026</caption>
@@ -208,8 +346,7 @@
         </thead>
         <tbody>
           <tr><td data-label="Check">Full private pipeline</td><td data-label="Result"><span class="badge pass">PASS</span> 16 of 16 steps</td><td data-label="Kind of evidence">Automated</td></tr>
-          <tr><td data-label="Check">Unit tests in that pipeline run</td><td data-label="Result"><span class="badge pass">PASS</span> 82 of 82</td><td data-label="Kind of evidence">Automated</td></tr>
-          <tr><td data-label="Check">Unit tests in the repository now (8 added later for public-repository staging and this website)</td><td data-label="Result"><span class="badge pass">PASS</span> 90 of 90</td><td data-label="Kind of evidence">Automated</td></tr>
+          <tr><td data-label="Check">Unit tests</td><td data-label="Result"><span class="badge pass">PASS</span> 82 of 82 in that run; more than 200 passed on 17 October 2026</td><td data-label="Kind of evidence">Automated</td></tr>
           <tr><td data-label="Check">Microsoft slide values against the official financial statements</td><td data-label="Result"><span class="badge pass">PASS</span> 85 of 85</td><td data-label="Kind of evidence">Automated</td></tr>
           <tr><td data-label="Check">Reconstruction text against an internally checked reference transcription</td><td data-label="Result"><span class="badge pass">PASS</span> 7 of 7 slides</td><td data-label="Kind of evidence">Automated comparison; reference corrections inspected internally</td></tr>
           <tr><td data-label="Check">OCR text-agreement test, threshold 0.98</td><td data-label="Result"><span class="badge fail">FAIL</span> 3 of 7 slides (F1 0.978, 0.969, 0.976). <a href="#ocr-test">Detailed explanation</a></td><td data-label="Kind of evidence">Automated; result retained</td></tr>
@@ -234,9 +371,9 @@
   </div>
 </section>
 
-<section id="lessons" class="alt" aria-labelledby="h-lessons">
+<section id="lessons" aria-labelledby="h-lessons">
   <div class="wrap">
-    <h2 id="h-lessons">F. Problems solved and lessons learned</h2>
+    <h2 id="h-lessons">G. Problems solved and lessons learned</h2>
     <div class="grid">
       <article class="panel">
         <h3>OCR errors versus reconstruction errors</h3>
@@ -259,6 +396,10 @@
         <p>Each result is labelled automated, internal inspection, or independent review. A failed automated test is not turned into a pass by an internal check, and internal inspection is never presented as independent acceptance.</p>
       </article>
       <article class="panel">
+        <h3>Omit a step rather than invent it</h3>
+        <p>The standard's recommended story has steps such as market insight and a business case. The Northstar data holds no market, cost, or benefit data, so those steps were left out and listed with their reasons, not filled with plausible numbers.</p>
+      </article>
+      <article class="panel">
         <h3>Publishing without leaking</h3>
         <p>The public files are built from an approved list and checked for restricted files, private references, credentials, and any 8-word passage shared with the Microsoft slide text. One check caught a private file name in a generated page before publication; it was removed.</p>
       </article>
@@ -266,15 +407,17 @@
   </div>
 </section>
 
-<section id="deliverables" aria-labelledby="h-deliverables">
+<section id="deliverables" class="alt" aria-labelledby="h-deliverables">
   <div class="wrap">
-    <h2 id="h-deliverables">G. Deliverables and project scope</h2>
+    <h2 id="h-deliverables">H. Deliverables and project scope</h2>
     <div class="grid two">
       <div class="panel">
         <h3>Public</h3>
         <ul>
-          <li><a href="assets/northstar/executive_revenue_review_v5.pptx" download>Northstar Cloud executive deck (PowerPoint)</a> and <a href="assets/northstar/executive_revenue_review_v5.pdf">PDF</a></li>
-          <li>Four Northstar before-and-after comparisons (section C)</li>
+          <li>Northstar Cloud version 6: <a href="assets/northstar/executive_revenue_review_v6.pptx" download>presenter deck (PowerPoint)</a> and <a href="assets/northstar/executive_revenue_review_v6.pdf">PDF</a>; <a href="assets/northstar/executive_revenue_review_v6_leave_behind.pptx" download>leave-behind (PowerPoint)</a> and <a href="assets/northstar/executive_revenue_review_v6_leave_behind.pdf">PDF</a></li>
+          <li><a href="assets/northstar/claims_register_v6.csv">Northstar Cloud version 6 claims register (CSV)</a></li>
+          <li>Four Northstar before-and-after comparisons (section D)</li>
+          <li>Previous version 5: <a href="assets/northstar/previous_versions/v5/executive_revenue_review_v5.pptx" download>PowerPoint</a> and <a href="assets/northstar/previous_versions/v5/executive_revenue_review_v5.pdf">PDF</a></li>
           <li><a href="assets/microsoft_fy2026_q4_calculated_metrics.csv">Microsoft FY2026 Q4 calculated metrics (CSV)</a></li>
           <li>Case studies on GitHub: <a href="https://github.com/JK0321/executive-presentation-reconstruction-portfolio/blob/main/case-studies/case_01_northstar_cloud.md">Northstar Cloud</a> and <a href="https://github.com/JK0321/executive-presentation-reconstruction-portfolio/blob/main/case-studies/case_02_microsoft_fy2026_q4.md">Microsoft FY2026 Q4</a></li>
           <li><a href="https://github.com/JK0321/executive-presentation-reconstruction-portfolio/blob/main/EVIDENCE.md">Evidence summary</a> and the <a href="https://github.com/JK0321/executive-presentation-reconstruction-portfolio">repository</a></li>
@@ -283,8 +426,8 @@
       <div class="panel">
         <h3>Produced but not published</h3>
         <ul>
-          <li>Northstar Cloud: the faithful reconstruction and earlier redesign versions</li>
-          <li>Microsoft FY2026 Q4: the faithful reconstruction and the executive redesign deck</li>
+          <li>Northstar Cloud: the faithful reconstruction and redesign versions 3 and 4</li>
+          <li>Microsoft FY2026 Q4: the faithful reconstruction and the executive redesign decks, versions 1 and 2</li>
           <li>Data-validation, review, and QA reports; decision records; the automation and its tests</li>
         </ul>
       </div>
@@ -293,6 +436,7 @@
         <ul>
           <li>Source verification and financial reconciliation for both cases</li>
           <li>Faithful reconstruction and executive redesign for both cases</li>
+          <li>Redesigns rebuilt to the working standard in two delivery modes (Northstar version 6, Microsoft version 2)</li>
           <li>Automated validation and internal inspection, with defects fixed and re-measured</li>
         </ul>
       </div>
@@ -300,6 +444,7 @@
         <h3>Pending</h3>
         <ul>
           <li>Independent review by a person outside the project</li>
+          <li>Independent comprehension test with five reviewers</li>
           <li>Hands-on accessibility testing (PowerPoint Accessibility Checker, screen reader)</li>
         </ul>
       </div>
@@ -315,7 +460,7 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <p>Executive Presentation Reconstruction &amp; Financial Validation · Results as recorded on 14 October 2026 · <a href="https://github.com/JK0321/executive-presentation-reconstruction-portfolio">Source repository on GitHub</a></p>
+    <p>Executive Presentation Reconstruction &amp; Financial Validation · Results as recorded on 14 and 17 October 2026 · <a href="https://github.com/JK0321/executive-presentation-reconstruction-portfolio">Source repository on GitHub</a></p>
     <p>Independent portfolio project. Not affiliated with or endorsed by Microsoft. Northstar Cloud is fictional.</p>
   </div>
 </footer>

@@ -1,0 +1,193 @@
+slide,figure,ref,sign_mode,finding,context,claim_class,mode,assumptions,unit,period
+1,14.3%,CALC:C-REVENUE-QOQ-PCT,as_is,F-02,,calculation,presenter,None beyond the formula: (Q2 - Q1) / Q1 * 100.,%,Q2 2026 actual vs Q1 2026 actual
+1,96%,CALC:C-REVENUE-ATTAIN,as_is,F-03,,calculation,presenter,None beyond the formula: Q2 / Plan * 100.,%,Q2 2026 actual vs Q2 2026 plan
+1,$4.8M,SRC:Revenue:Q2_2026,as_is,F-01,,source,presenter,none (source cell),USD M,Q2 2026 actual
+1,+14.3%,CALC:C-REVENUE-QOQ-PCT,as_is,F-02,,calculation,presenter,None beyond the formula: (Q2 - Q1) / Q1 * 100.,%,Q2 2026 actual vs Q1 2026 actual
+1,$5.0M,SRC:Revenue:Q2_Plan,as_is,F-01,,source,presenter,none (source cell),USD M,Q2 2026 plan
+1,74%,SRC:Gross_Margin:Q2_2026,as_is,F-06,,source,presenter,none (source cell),%,Q2 2026 actual
+1,+1 pp,CALC:C-GROSS_MARGIN-PLANVAR,as_is,F-06,,calculation,presenter,None beyond the formula: Q2 - Plan.,pp,Q2 2026 actual vs Q2 2026 plan
+1,2.9x,SRC:Pipeline_Coverage:Q2_2026,as_is,F-09,,source,presenter,none (source cell),x,Q2 2026 actual
+1,−0.3x,CALC:C-PIPELINE_COVERAGE-PLANVAR,as_is,F-09,,calculation,presenter,None beyond the formula: Q2 - Plan.,x,Q2 2026 actual vs Q2 2026 plan
+1,3.2x,SRC:Pipeline_Coverage:Q2_Plan,as_is,F-09,,source,presenter,none (source cell),x,Q2 2026 plan
+1,40%,CALC:C-PIPELINE_COVERAGE-GAP-CLOSED,as_is,F-05,,calculation,presenter,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+2,$0.6M,CALC:C-REVENUE-QOQ,as_is,F-02,,calculation,presenter,None beyond the formula: Q2 - Q1.,USD M,Q2 2026 actual vs Q1 2026 actual
+2,+14.3%,CALC:C-REVENUE-QOQ-PCT,as_is,F-02,,calculation,presenter,None beyond the formula: (Q2 - Q1) / Q1 * 100.,%,Q2 2026 actual vs Q1 2026 actual
+2,+19.0%,CALC:C-REVENUE-PLAN-IMPLIED-GROWTH,as_is,F-04,,calculation,presenter,None beyond the formula: (Plan - Q1) / Q1 * 100.,%,Q2 2026 plan vs Q1 2026 actual
+2,75%,CALC:C-REVENUE-GAP-CLOSED,as_is,F-04,,calculation,presenter,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+2,1 pp,CALC:C-GROSS_MARGIN-PLANVAR,magnitude,F-06,,calculation,presenter,None beyond the formula: Q2 - Plan.,pp,Q2 2026 actual vs Q2 2026 plan
+2,$0.10M,CALC:C-GROSS_PROFIT-PLANVAR,magnitude,F-12,,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: GP_Q2 - GP_Plan.,USD M,Q2 2026 actual vs Q2 2026 plan
+2,40%,CALC:C-PIPELINE_COVERAGE-GAP-CLOSED,as_is,F-05,,calculation,presenter,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+2,108%,SRC:Net_Revenue_Retention:Q2_2026,as_is,F-08,,source,presenter,none (source cell),%,Q2 2026 actual
+2,110%,SRC:Net_Revenue_Retention:Q2_Plan,as_is,F-08,,source,presenter,none (source cell),%,Q2 2026 plan
+2,1,LABEL:message ordinal,as_is,,,label,presenter,none (non-data label),none (non-data label),not applicable (non-data label)
+2,2,LABEL:message ordinal,as_is,,,label,presenter,none (non-data label),none (non-data label),not applicable (non-data label)
+2,3,LABEL:message ordinal,as_is,,,label,presenter,none (non-data label),none (non-data label),not applicable (non-data label)
+3,$0.6M,CALC:C-REVENUE-QOQ,as_is,F-02,,calculation,presenter,None beyond the formula: Q2 - Q1.,USD M,Q2 2026 actual vs Q1 2026 actual
+3,$0.2M,CALC:C-REVENUE-PLANVAR,magnitude,F-03,,calculation,presenter,None beyond the formula: Q2 - Plan.,USD M,Q2 2026 actual vs Q2 2026 plan
+3,−4.0%,CALC:C-REVENUE-PLANVAR-PCT,as_is,F-03,,calculation,presenter,None beyond the formula: (Q2 - Plan) / Plan * 100.,%,Q2 2026 actual vs Q2 2026 plan
+3,chart:Revenue (USD M)|Q1 2026 (prior quarter),SRC:Revenue:Q1_2026,as_is,F-01,native chart data point,source,presenter,none (source cell),USD M,Q1 2026 actual
+3,chart:Revenue (USD M)|Q2 2026 plan,SRC:Revenue:Q2_Plan,as_is,F-01,native chart data point,source,presenter,none (source cell),USD M,Q2 2026 plan
+3,chart:Revenue (USD M)|Q2 2026 actual,SRC:Revenue:Q2_2026,as_is,F-01,native chart data point,source,presenter,none (source cell),USD M,Q2 2026 actual
+3,96.0%,CALC:C-REVENUE-ATTAIN,as_is,F-03,,calculation,presenter,None beyond the formula: Q2 / Plan * 100.,%,Q2 2026 actual vs Q2 2026 plan
+3,+19.0%,CALC:C-REVENUE-PLAN-IMPLIED-GROWTH,as_is,F-04,,calculation,presenter,None beyond the formula: (Plan - Q1) / Q1 * 100.,%,Q2 2026 plan vs Q1 2026 actual
+3,+14.3%,CALC:C-REVENUE-QOQ-PCT,as_is,F-02,,calculation,presenter,None beyond the formula: (Q2 - Q1) / Q1 * 100.,%,Q2 2026 actual vs Q1 2026 actual
+3,75%,CALC:C-REVENUE-GAP-CLOSED,as_is,F-04,,calculation,presenter,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+4,$0.10M,CALC:C-GROSS_PROFIT-PLANVAR,magnitude,F-12,,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: GP_Q2 - GP_Plan.,USD M,Q2 2026 actual vs Q2 2026 plan
+4,chart:Bridge base (hidden)|Revenue below plan (at plan margin),CALC:C-GROSS_PROFIT-AT-PLAN-MARGIN,as_is,F-12,native chart data point,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Rev_Q2 * GM_Plan / 100.,USD M,Q2 2026 actual revenue at the Q2 2026 plan margin
+4,chart:Bridge base (hidden)|Gross margin above plan,CALC:C-GROSS_PROFIT-AT-PLAN-MARGIN,as_is,F-12,native chart data point,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Rev_Q2 * GM_Plan / 100.,USD M,Q2 2026 actual revenue at the Q2 2026 plan margin
+4,chart:Implied gross profit|Q2 2026 plan,CALC:C-GROSS_PROFIT-PLAN,as_is,F-12,native chart data point,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Revenue * Gross_Margin / 100.,USD M,Q2 2026 plan
+4,chart:Implied gross profit|Q2 2026 actual,CALC:C-GROSS_PROFIT-Q2,as_is,F-12,native chart data point,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Revenue * Gross_Margin / 100.,USD M,Q2 2026 actual
+4,chart:Revenue below plan|Revenue below plan (at plan margin),CALC:C-GROSS_PROFIT-PLANVAR-VOLUME,magnitude,F-12,native chart data point,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: (Rev_Q2 - Rev_Plan) * GM_Plan / 100.,USD M,Q2 2026 actual vs Q2 2026 plan
+4,chart:Gross margin above plan|Gross margin above plan,CALC:C-GROSS_PROFIT-PLANVAR-RATE,as_is,F-12,native chart data point,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Rev_Q2 * (GM_Q2 - GM_Plan) / 100.,USD M,Q2 2026 actual vs Q2 2026 plan
+4,$3.65M,CALC:C-GROSS_PROFIT-PLAN,as_is,F-12,,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Revenue * Gross_Margin / 100.,USD M,Q2 2026 plan
+4,−$0.15M,CALC:C-GROSS_PROFIT-PLANVAR-VOLUME,as_is,F-12,,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: (Rev_Q2 - Rev_Plan) * GM_Plan / 100.,USD M,Q2 2026 actual vs Q2 2026 plan
+4,+$0.05M,CALC:C-GROSS_PROFIT-PLANVAR-RATE,as_is,F-12,,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Rev_Q2 * (GM_Q2 - GM_Plan) / 100.,USD M,Q2 2026 actual vs Q2 2026 plan
+4,$3.55M,CALC:C-GROSS_PROFIT-Q2,as_is,F-12,,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Revenue * Gross_Margin / 100.,USD M,Q2 2026 actual
+4,$0.15M,CALC:C-GROSS_PROFIT-PLANVAR-VOLUME,magnitude,F-12,,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: (Rev_Q2 - Rev_Plan) * GM_Plan / 100.,USD M,Q2 2026 actual vs Q2 2026 plan
+4,$0.05M,CALC:C-GROSS_PROFIT-PLANVAR-RATE,as_is,F-12,,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Rev_Q2 * (GM_Q2 - GM_Plan) / 100.,USD M,Q2 2026 actual vs Q2 2026 plan
+4,74%,SRC:Gross_Margin:Q2_2026,as_is,F-06,,source,presenter,none (source cell),%,Q2 2026 actual
+4,73%,SRC:Gross_Margin:Q2_Plan,as_is,F-06,,source,presenter,none (source cell),%,Q2 2026 plan
+4,−2.7%,CALC:C-GROSS_PROFIT-PLANVAR-PCT,as_is,F-12,,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: (GP_Q2 - GP_Plan) / GP_Plan * 100.,%,Q2 2026 actual vs Q2 2026 plan
+4,$3.02M,CALC:C-GROSS_PROFIT-Q1,as_is,F-12,,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Revenue * Gross_Margin / 100.,USD M,Q1 2026 actual
+4,+17.5%,CALC:C-GROSS_PROFIT-QOQ-PCT,as_is,F-12,,calculation,presenter,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: (GP_Q2 - GP_Q1) / GP_Q1 * 100.,%,Q2 2026 actual vs Q1 2026 actual
+5,$4.2M,SRC:Revenue:Q1_2026,as_is,F-03,,source,presenter,none (source cell),USD M,Q1 2026 actual
+5,$4.8M,SRC:Revenue:Q2_2026,as_is,F-03,,source,presenter,none (source cell),USD M,Q2 2026 actual
+5,$5.0M,SRC:Revenue:Q2_Plan,as_is,F-03,,source,presenter,none (source cell),USD M,Q2 2026 plan
+5,+$0.6M,CALC:C-REVENUE-QOQ,as_is,F-03,,calculation,presenter,None beyond the formula: Q2 - Q1.,USD M,Q2 2026 actual vs Q1 2026 actual
+5,−$0.2M,CALC:C-REVENUE-PLANVAR,as_is,F-03,,calculation,presenter,None beyond the formula: Q2 - Plan.,USD M,Q2 2026 actual vs Q2 2026 plan
+5,$1.1M,SRC:New_ARR:Q1_2026,as_is,F-07,,source,presenter,none (source cell),USD M,Q1 2026 actual
+5,$1.4M,SRC:New_ARR:Q2_2026,as_is,F-07,,source,presenter,none (source cell),USD M,Q2 2026 actual
+5,$1.5M,SRC:New_ARR:Q2_Plan,as_is,F-07,,source,presenter,none (source cell),USD M,Q2 2026 plan
+5,+$0.3M,CALC:C-NEW_ARR-QOQ,as_is,F-07,,calculation,presenter,None beyond the formula: Q2 - Q1.,USD M,Q2 2026 actual vs Q1 2026 actual
+5,−$0.1M,CALC:C-NEW_ARR-PLANVAR,as_is,F-07,,calculation,presenter,None beyond the formula: Q2 - Plan.,USD M,Q2 2026 actual vs Q2 2026 plan
+5,72%,SRC:Gross_Margin:Q1_2026,as_is,F-06,,source,presenter,none (source cell),%,Q1 2026 actual
+5,74%,SRC:Gross_Margin:Q2_2026,as_is,F-06,,source,presenter,none (source cell),%,Q2 2026 actual
+5,73%,SRC:Gross_Margin:Q2_Plan,as_is,F-06,,source,presenter,none (source cell),%,Q2 2026 plan
+5,+2 pp,CALC:C-GROSS_MARGIN-QOQ,as_is,F-06,,calculation,presenter,None beyond the formula: Q2 - Q1.,pp,Q2 2026 actual vs Q1 2026 actual
+5,+1 pp,CALC:C-GROSS_MARGIN-PLANVAR,as_is,F-06,,calculation,presenter,None beyond the formula: Q2 - Plan.,pp,Q2 2026 actual vs Q2 2026 plan
+5,106%,SRC:Net_Revenue_Retention:Q1_2026,as_is,F-08,,source,presenter,none (source cell),%,Q1 2026 actual
+5,108%,SRC:Net_Revenue_Retention:Q2_2026,as_is,F-08,,source,presenter,none (source cell),%,Q2 2026 actual
+5,110%,SRC:Net_Revenue_Retention:Q2_Plan,as_is,F-08,,source,presenter,none (source cell),%,Q2 2026 plan
+5,−2 pp,CALC:C-NET_REVENUE_RETENTION-PLANVAR,as_is,F-08,,calculation,presenter,None beyond the formula: Q2 - Plan.,pp,Q2 2026 actual vs Q2 2026 plan
+5,2.7x,SRC:Pipeline_Coverage:Q1_2026,as_is,F-09,,source,presenter,none (source cell),x,Q1 2026 actual
+5,2.9x,SRC:Pipeline_Coverage:Q2_2026,as_is,F-09,,source,presenter,none (source cell),x,Q2 2026 actual
+5,3.2x,SRC:Pipeline_Coverage:Q2_Plan,as_is,F-09,,source,presenter,none (source cell),x,Q2 2026 plan
+5,+0.2x,CALC:C-PIPELINE_COVERAGE-QOQ,as_is,F-09,,calculation,presenter,None beyond the formula: Q2 - Q1.,x,Q2 2026 actual vs Q1 2026 actual
+5,−0.3x,CALC:C-PIPELINE_COVERAGE-PLANVAR,as_is,F-09,,calculation,presenter,None beyond the formula: Q2 - Plan.,x,Q2 2026 actual vs Q2 2026 plan
+5,24%,SRC:Enterprise_Win_Rate:Q1_2026,as_is,F-10,,source,presenter,none (source cell),%,Q1 2026 actual
+5,28%,SRC:Enterprise_Win_Rate:Q2_2026,as_is,F-10,,source,presenter,none (source cell),%,Q2 2026 actual
+5,30%,SRC:Enterprise_Win_Rate:Q2_Plan,as_is,F-10,,source,presenter,none (source cell),%,Q2 2026 plan
+5,+4 pp,CALC:C-ENTERPRISE_WIN_RATE-QOQ,as_is,F-10,,calculation,presenter,None beyond the formula: Q2 - Q1.,pp,Q2 2026 actual vs Q1 2026 actual
+5,67 days,SRC:Sales_Cycle:Q1_2026,as_is,F-11,,source,presenter,none (source cell),days,Q1 2026 actual
+5,63 days,SRC:Sales_Cycle:Q2_2026,as_is,F-11,,source,presenter,none (source cell),days,Q2 2026 actual
+5,60 days,SRC:Sales_Cycle:Q2_Plan,as_is,F-11,,source,presenter,none (source cell),days,Q2 2026 plan
+5,−4 days,CALC:C-SALES_CYCLE-QOQ,as_is,F-11,,calculation,presenter,None beyond the formula: Q2 - Q1.,days,Q2 2026 actual vs Q1 2026 actual
+5,+3 days,CALC:C-SALES_CYCLE-PLANVAR,as_is,F-11,,calculation,presenter,None beyond the formula: Q2 - Plan.,days,Q2 2026 actual vs Q2 2026 plan
+6,40%,CALC:C-PIPELINE_COVERAGE-GAP-CLOSED,as_is,F-15,,calculation,presenter,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+6,chart:Gap closed (%)|Gross margin,CALC:C-GROSS_MARGIN-GAP-CLOSED,as_is,F-05,native chart data point,calculation,presenter,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+6,chart:Gap closed (%)|Revenue,CALC:C-REVENUE-GAP-CLOSED,as_is,F-05,native chart data point,calculation,presenter,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+6,chart:Gap closed (%)|New ARR,CALC:C-NEW_ARR-GAP-CLOSED,as_is,F-05,native chart data point,calculation,presenter,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+6,chart:Gap closed (%)|Enterprise win rate,CALC:C-ENTERPRISE_WIN_RATE-GAP-CLOSED,as_is,F-05,native chart data point,calculation,presenter,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+6,chart:Gap closed (%)|Sales cycle,CALC:C-SALES_CYCLE-GAP-CLOSED,as_is,F-05,native chart data point,calculation,presenter,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+6,chart:Gap closed (%)|Net revenue retention,CALC:C-NET_REVENUE_RETENTION-GAP-CLOSED,as_is,F-05,native chart data point,calculation,presenter,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+6,chart:Gap closed (%)|Pipeline coverage,CALC:C-PIPELINE_COVERAGE-GAP-CLOSED,as_is,F-05,native chart data point,calculation,presenter,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+6,100%,LABEL:reading guide: plan reached,as_is,,,label,presenter,none (non-data label),none (non-data label),not applicable (non-data label)
+6,2.9x,SRC:Pipeline_Coverage:Q2_2026,as_is,F-09,,source,presenter,none (source cell),x,Q2 2026 actual
+6,3.2x,SRC:Pipeline_Coverage:Q2_Plan,as_is,F-09,,source,presenter,none (source cell),x,Q2 2026 plan
+6,90.6%,CALC:C-PIPELINE_COVERAGE-ATTAIN,as_is,F-09,,calculation,presenter,None beyond the formula: Q2 / Plan * 100.,%,Q2 2026 actual vs Q2 2026 plan
+2,14.3%,CALC:C-REVENUE-QOQ-PCT,as_is,F-02,,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / Q1 * 100.,%,Q2 2026 actual vs Q1 2026 actual
+2,96%,CALC:C-REVENUE-ATTAIN,as_is,F-03,,calculation,leave-behind,None beyond the formula: Q2 / Plan * 100.,%,Q2 2026 actual vs Q2 2026 plan
+2,$4.8M,SRC:Revenue:Q2_2026,as_is,F-01,,source,leave-behind,none (source cell),USD M,Q2 2026 actual
+2,+14.3%,CALC:C-REVENUE-QOQ-PCT,as_is,F-02,,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / Q1 * 100.,%,Q2 2026 actual vs Q1 2026 actual
+2,$5.0M,SRC:Revenue:Q2_Plan,as_is,F-01,,source,leave-behind,none (source cell),USD M,Q2 2026 plan
+2,74%,SRC:Gross_Margin:Q2_2026,as_is,F-06,,source,leave-behind,none (source cell),%,Q2 2026 actual
+2,+1 pp,CALC:C-GROSS_MARGIN-PLANVAR,as_is,F-06,,calculation,leave-behind,None beyond the formula: Q2 - Plan.,pp,Q2 2026 actual vs Q2 2026 plan
+2,2.9x,SRC:Pipeline_Coverage:Q2_2026,as_is,F-09,,source,leave-behind,none (source cell),x,Q2 2026 actual
+2,−0.3x,CALC:C-PIPELINE_COVERAGE-PLANVAR,as_is,F-09,,calculation,leave-behind,None beyond the formula: Q2 - Plan.,x,Q2 2026 actual vs Q2 2026 plan
+2,3.2x,SRC:Pipeline_Coverage:Q2_Plan,as_is,F-09,,source,leave-behind,none (source cell),x,Q2 2026 plan
+2,40%,CALC:C-PIPELINE_COVERAGE-GAP-CLOSED,as_is,F-05,,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+3,$0.6M,CALC:C-REVENUE-QOQ,as_is,F-02,,calculation,leave-behind,None beyond the formula: Q2 - Q1.,USD M,Q2 2026 actual vs Q1 2026 actual
+3,+14.3%,CALC:C-REVENUE-QOQ-PCT,as_is,F-02,,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / Q1 * 100.,%,Q2 2026 actual vs Q1 2026 actual
+3,+19.0%,CALC:C-REVENUE-PLAN-IMPLIED-GROWTH,as_is,F-04,,calculation,leave-behind,None beyond the formula: (Plan - Q1) / Q1 * 100.,%,Q2 2026 plan vs Q1 2026 actual
+3,75%,CALC:C-REVENUE-GAP-CLOSED,as_is,F-04,,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+3,1 pp,CALC:C-GROSS_MARGIN-PLANVAR,magnitude,F-06,,calculation,leave-behind,None beyond the formula: Q2 - Plan.,pp,Q2 2026 actual vs Q2 2026 plan
+3,$0.10M,CALC:C-GROSS_PROFIT-PLANVAR,magnitude,F-12,,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: GP_Q2 - GP_Plan.,USD M,Q2 2026 actual vs Q2 2026 plan
+3,40%,CALC:C-PIPELINE_COVERAGE-GAP-CLOSED,as_is,F-05,,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+3,108%,SRC:Net_Revenue_Retention:Q2_2026,as_is,F-08,,source,leave-behind,none (source cell),%,Q2 2026 actual
+3,110%,SRC:Net_Revenue_Retention:Q2_Plan,as_is,F-08,,source,leave-behind,none (source cell),%,Q2 2026 plan
+3,1,LABEL:message ordinal,as_is,,,label,leave-behind,none (non-data label),none (non-data label),not applicable (non-data label)
+3,2,LABEL:message ordinal,as_is,,,label,leave-behind,none (non-data label),none (non-data label),not applicable (non-data label)
+3,3,LABEL:message ordinal,as_is,,,label,leave-behind,none (non-data label),none (non-data label),not applicable (non-data label)
+4,$0.6M,CALC:C-REVENUE-QOQ,as_is,F-02,,calculation,leave-behind,None beyond the formula: Q2 - Q1.,USD M,Q2 2026 actual vs Q1 2026 actual
+4,$0.2M,CALC:C-REVENUE-PLANVAR,magnitude,F-03,,calculation,leave-behind,None beyond the formula: Q2 - Plan.,USD M,Q2 2026 actual vs Q2 2026 plan
+4,−4.0%,CALC:C-REVENUE-PLANVAR-PCT,as_is,F-03,,calculation,leave-behind,None beyond the formula: (Q2 - Plan) / Plan * 100.,%,Q2 2026 actual vs Q2 2026 plan
+4,chart:Revenue (USD M)|Q1 2026 (prior quarter),SRC:Revenue:Q1_2026,as_is,F-01,native chart data point,source,leave-behind,none (source cell),USD M,Q1 2026 actual
+4,chart:Revenue (USD M)|Q2 2026 plan,SRC:Revenue:Q2_Plan,as_is,F-01,native chart data point,source,leave-behind,none (source cell),USD M,Q2 2026 plan
+4,chart:Revenue (USD M)|Q2 2026 actual,SRC:Revenue:Q2_2026,as_is,F-01,native chart data point,source,leave-behind,none (source cell),USD M,Q2 2026 actual
+4,96.0%,CALC:C-REVENUE-ATTAIN,as_is,F-03,,calculation,leave-behind,None beyond the formula: Q2 / Plan * 100.,%,Q2 2026 actual vs Q2 2026 plan
+4,+19.0%,CALC:C-REVENUE-PLAN-IMPLIED-GROWTH,as_is,F-04,,calculation,leave-behind,None beyond the formula: (Plan - Q1) / Q1 * 100.,%,Q2 2026 plan vs Q1 2026 actual
+4,+14.3%,CALC:C-REVENUE-QOQ-PCT,as_is,F-02,,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / Q1 * 100.,%,Q2 2026 actual vs Q1 2026 actual
+4,75%,CALC:C-REVENUE-GAP-CLOSED,as_is,F-04,,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+5,$0.10M,CALC:C-GROSS_PROFIT-PLANVAR,magnitude,F-12,,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: GP_Q2 - GP_Plan.,USD M,Q2 2026 actual vs Q2 2026 plan
+5,chart:Bridge base (hidden)|Revenue below plan (at plan margin),CALC:C-GROSS_PROFIT-AT-PLAN-MARGIN,as_is,F-12,native chart data point,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Rev_Q2 * GM_Plan / 100.,USD M,Q2 2026 actual revenue at the Q2 2026 plan margin
+5,chart:Bridge base (hidden)|Gross margin above plan,CALC:C-GROSS_PROFIT-AT-PLAN-MARGIN,as_is,F-12,native chart data point,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Rev_Q2 * GM_Plan / 100.,USD M,Q2 2026 actual revenue at the Q2 2026 plan margin
+5,chart:Implied gross profit|Q2 2026 plan,CALC:C-GROSS_PROFIT-PLAN,as_is,F-12,native chart data point,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Revenue * Gross_Margin / 100.,USD M,Q2 2026 plan
+5,chart:Implied gross profit|Q2 2026 actual,CALC:C-GROSS_PROFIT-Q2,as_is,F-12,native chart data point,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Revenue * Gross_Margin / 100.,USD M,Q2 2026 actual
+5,chart:Revenue below plan|Revenue below plan (at plan margin),CALC:C-GROSS_PROFIT-PLANVAR-VOLUME,magnitude,F-12,native chart data point,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: (Rev_Q2 - Rev_Plan) * GM_Plan / 100.,USD M,Q2 2026 actual vs Q2 2026 plan
+5,chart:Gross margin above plan|Gross margin above plan,CALC:C-GROSS_PROFIT-PLANVAR-RATE,as_is,F-12,native chart data point,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Rev_Q2 * (GM_Q2 - GM_Plan) / 100.,USD M,Q2 2026 actual vs Q2 2026 plan
+5,$3.65M,CALC:C-GROSS_PROFIT-PLAN,as_is,F-12,,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Revenue * Gross_Margin / 100.,USD M,Q2 2026 plan
+5,−$0.15M,CALC:C-GROSS_PROFIT-PLANVAR-VOLUME,as_is,F-12,,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: (Rev_Q2 - Rev_Plan) * GM_Plan / 100.,USD M,Q2 2026 actual vs Q2 2026 plan
+5,+$0.05M,CALC:C-GROSS_PROFIT-PLANVAR-RATE,as_is,F-12,,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Rev_Q2 * (GM_Q2 - GM_Plan) / 100.,USD M,Q2 2026 actual vs Q2 2026 plan
+5,$3.55M,CALC:C-GROSS_PROFIT-Q2,as_is,F-12,,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Revenue * Gross_Margin / 100.,USD M,Q2 2026 actual
+5,$0.15M,CALC:C-GROSS_PROFIT-PLANVAR-VOLUME,magnitude,F-12,,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: (Rev_Q2 - Rev_Plan) * GM_Plan / 100.,USD M,Q2 2026 actual vs Q2 2026 plan
+5,$0.05M,CALC:C-GROSS_PROFIT-PLANVAR-RATE,as_is,F-12,,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Rev_Q2 * (GM_Q2 - GM_Plan) / 100.,USD M,Q2 2026 actual vs Q2 2026 plan
+5,74%,SRC:Gross_Margin:Q2_2026,as_is,F-06,,source,leave-behind,none (source cell),%,Q2 2026 actual
+5,73%,SRC:Gross_Margin:Q2_Plan,as_is,F-06,,source,leave-behind,none (source cell),%,Q2 2026 plan
+5,−2.7%,CALC:C-GROSS_PROFIT-PLANVAR-PCT,as_is,F-12,,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: (GP_Q2 - GP_Plan) / GP_Plan * 100.,%,Q2 2026 actual vs Q2 2026 plan
+5,$3.02M,CALC:C-GROSS_PROFIT-Q1,as_is,F-12,,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: Revenue * Gross_Margin / 100.,USD M,Q1 2026 actual
+5,+17.5%,CALC:C-GROSS_PROFIT-QOQ-PCT,as_is,F-12,,calculation,leave-behind,Gross_Margin is a percentage of reported Revenue for the same period (see L-007). Formula: (GP_Q2 - GP_Q1) / GP_Q1 * 100.,%,Q2 2026 actual vs Q1 2026 actual
+6,$4.2M,SRC:Revenue:Q1_2026,as_is,F-03,,source,leave-behind,none (source cell),USD M,Q1 2026 actual
+6,$4.8M,SRC:Revenue:Q2_2026,as_is,F-03,,source,leave-behind,none (source cell),USD M,Q2 2026 actual
+6,$5.0M,SRC:Revenue:Q2_Plan,as_is,F-03,,source,leave-behind,none (source cell),USD M,Q2 2026 plan
+6,+$0.6M,CALC:C-REVENUE-QOQ,as_is,F-03,,calculation,leave-behind,None beyond the formula: Q2 - Q1.,USD M,Q2 2026 actual vs Q1 2026 actual
+6,−$0.2M,CALC:C-REVENUE-PLANVAR,as_is,F-03,,calculation,leave-behind,None beyond the formula: Q2 - Plan.,USD M,Q2 2026 actual vs Q2 2026 plan
+6,$1.1M,SRC:New_ARR:Q1_2026,as_is,F-07,,source,leave-behind,none (source cell),USD M,Q1 2026 actual
+6,$1.4M,SRC:New_ARR:Q2_2026,as_is,F-07,,source,leave-behind,none (source cell),USD M,Q2 2026 actual
+6,$1.5M,SRC:New_ARR:Q2_Plan,as_is,F-07,,source,leave-behind,none (source cell),USD M,Q2 2026 plan
+6,+$0.3M,CALC:C-NEW_ARR-QOQ,as_is,F-07,,calculation,leave-behind,None beyond the formula: Q2 - Q1.,USD M,Q2 2026 actual vs Q1 2026 actual
+6,−$0.1M,CALC:C-NEW_ARR-PLANVAR,as_is,F-07,,calculation,leave-behind,None beyond the formula: Q2 - Plan.,USD M,Q2 2026 actual vs Q2 2026 plan
+6,72%,SRC:Gross_Margin:Q1_2026,as_is,F-06,,source,leave-behind,none (source cell),%,Q1 2026 actual
+6,74%,SRC:Gross_Margin:Q2_2026,as_is,F-06,,source,leave-behind,none (source cell),%,Q2 2026 actual
+6,73%,SRC:Gross_Margin:Q2_Plan,as_is,F-06,,source,leave-behind,none (source cell),%,Q2 2026 plan
+6,+2 pp,CALC:C-GROSS_MARGIN-QOQ,as_is,F-06,,calculation,leave-behind,None beyond the formula: Q2 - Q1.,pp,Q2 2026 actual vs Q1 2026 actual
+6,+1 pp,CALC:C-GROSS_MARGIN-PLANVAR,as_is,F-06,,calculation,leave-behind,None beyond the formula: Q2 - Plan.,pp,Q2 2026 actual vs Q2 2026 plan
+6,106%,SRC:Net_Revenue_Retention:Q1_2026,as_is,F-08,,source,leave-behind,none (source cell),%,Q1 2026 actual
+6,108%,SRC:Net_Revenue_Retention:Q2_2026,as_is,F-08,,source,leave-behind,none (source cell),%,Q2 2026 actual
+6,110%,SRC:Net_Revenue_Retention:Q2_Plan,as_is,F-08,,source,leave-behind,none (source cell),%,Q2 2026 plan
+6,−2 pp,CALC:C-NET_REVENUE_RETENTION-PLANVAR,as_is,F-08,,calculation,leave-behind,None beyond the formula: Q2 - Plan.,pp,Q2 2026 actual vs Q2 2026 plan
+6,2.7x,SRC:Pipeline_Coverage:Q1_2026,as_is,F-09,,source,leave-behind,none (source cell),x,Q1 2026 actual
+6,2.9x,SRC:Pipeline_Coverage:Q2_2026,as_is,F-09,,source,leave-behind,none (source cell),x,Q2 2026 actual
+6,3.2x,SRC:Pipeline_Coverage:Q2_Plan,as_is,F-09,,source,leave-behind,none (source cell),x,Q2 2026 plan
+6,+0.2x,CALC:C-PIPELINE_COVERAGE-QOQ,as_is,F-09,,calculation,leave-behind,None beyond the formula: Q2 - Q1.,x,Q2 2026 actual vs Q1 2026 actual
+6,−0.3x,CALC:C-PIPELINE_COVERAGE-PLANVAR,as_is,F-09,,calculation,leave-behind,None beyond the formula: Q2 - Plan.,x,Q2 2026 actual vs Q2 2026 plan
+6,24%,SRC:Enterprise_Win_Rate:Q1_2026,as_is,F-10,,source,leave-behind,none (source cell),%,Q1 2026 actual
+6,28%,SRC:Enterprise_Win_Rate:Q2_2026,as_is,F-10,,source,leave-behind,none (source cell),%,Q2 2026 actual
+6,30%,SRC:Enterprise_Win_Rate:Q2_Plan,as_is,F-10,,source,leave-behind,none (source cell),%,Q2 2026 plan
+6,+4 pp,CALC:C-ENTERPRISE_WIN_RATE-QOQ,as_is,F-10,,calculation,leave-behind,None beyond the formula: Q2 - Q1.,pp,Q2 2026 actual vs Q1 2026 actual
+6,67 days,SRC:Sales_Cycle:Q1_2026,as_is,F-11,,source,leave-behind,none (source cell),days,Q1 2026 actual
+6,63 days,SRC:Sales_Cycle:Q2_2026,as_is,F-11,,source,leave-behind,none (source cell),days,Q2 2026 actual
+6,60 days,SRC:Sales_Cycle:Q2_Plan,as_is,F-11,,source,leave-behind,none (source cell),days,Q2 2026 plan
+6,−4 days,CALC:C-SALES_CYCLE-QOQ,as_is,F-11,,calculation,leave-behind,None beyond the formula: Q2 - Q1.,days,Q2 2026 actual vs Q1 2026 actual
+6,+3 days,CALC:C-SALES_CYCLE-PLANVAR,as_is,F-11,,calculation,leave-behind,None beyond the formula: Q2 - Plan.,days,Q2 2026 actual vs Q2 2026 plan
+7,40%,CALC:C-PIPELINE_COVERAGE-GAP-CLOSED,as_is,F-15,,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+7,chart:Gap closed (%)|Gross margin,CALC:C-GROSS_MARGIN-GAP-CLOSED,as_is,F-05,native chart data point,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+7,chart:Gap closed (%)|Revenue,CALC:C-REVENUE-GAP-CLOSED,as_is,F-05,native chart data point,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+7,chart:Gap closed (%)|New ARR,CALC:C-NEW_ARR-GAP-CLOSED,as_is,F-05,native chart data point,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+7,chart:Gap closed (%)|Enterprise win rate,CALC:C-ENTERPRISE_WIN_RATE-GAP-CLOSED,as_is,F-05,native chart data point,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+7,chart:Gap closed (%)|Sales cycle,CALC:C-SALES_CYCLE-GAP-CLOSED,as_is,F-05,native chart data point,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+7,chart:Gap closed (%)|Net revenue retention,CALC:C-NET_REVENUE_RETENTION-GAP-CLOSED,as_is,F-05,native chart data point,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+7,chart:Gap closed (%)|Pipeline coverage,CALC:C-PIPELINE_COVERAGE-GAP-CLOSED,as_is,F-05,native chart data point,calculation,leave-behind,None beyond the formula: (Q2 - Q1) / (Plan - Q1) * 100.,%,Q1 2026 actual to Q2 2026 plan (share closed in Q2 2026)
+7,100%,LABEL:reading guide: plan reached,as_is,,,label,leave-behind,none (non-data label),none (non-data label),not applicable (non-data label)
+7,2.9x,SRC:Pipeline_Coverage:Q2_2026,as_is,F-09,,source,leave-behind,none (source cell),x,Q2 2026 actual
+7,3.2x,SRC:Pipeline_Coverage:Q2_Plan,as_is,F-09,,source,leave-behind,none (source cell),x,Q2 2026 plan
+7,90.6%,CALC:C-PIPELINE_COVERAGE-ATTAIN,as_is,F-09,,calculation,leave-behind,None beyond the formula: Q2 / Plan * 100.,%,Q2 2026 actual vs Q2 2026 plan

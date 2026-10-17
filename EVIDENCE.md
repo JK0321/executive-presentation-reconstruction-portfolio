@@ -1,6 +1,6 @@
 # Evidence Summary
 
-All results were recorded in the private working repository on 14 October 2026. The automation and the tests are not published, so visitors cannot rerun them.
+All results were recorded in the private working repository on 14 October 2026, except section 6, recorded on 17 October 2026. The automation and the tests are not published, so visitors cannot rerun them.
 
 ## 1. Reconstruction methodology
 **Case 01 (Northstar Cloud).** The original deck is an editable PowerPoint file. It was rebuilt from a declared specification and compared with the original property by property and pixel by pixel: 596 properties compared, 0 material differences, 0.0000 % changed pixels on 4 of 4 slides.
@@ -14,7 +14,7 @@ All results were recorded in the private working repository on 14 October 2026. 
 Measured result: 0 pictures (4 native tables, 1 native chart); median text-line position offset 0.06 % to 0.17 % of the slide; median text-height ratio 0.984 to 1.023. Accepted differences: the cover typeface (the source face is not installed), square instead of rounded bar tops (a chart-tool limit), and no slide titles or picture descriptions (the images do not show them).
 
 ## 2. Financial verification
-**Case 01.** The synthetic data passed 12 of 14 data checks; 2 cannot be tested with the data supplied (no segment or component data). Every number on the executive deck (98 figures and chart points) is produced by one calculation engine and traced to a source cell or a documented calculation. One figure is derived (implied gross profit) and its assumption is on the slide.
+**Case 01.** The synthetic data passed 12 of 14 data checks; 2 cannot be tested with the data supplied (no segment or component data). Every number on the current executive deck, version 6, is produced by one calculation engine and traced to a source cell or a documented calculation: 96 figures and chart points in the presenter deck and the same 96 in the leave-behind. One figure is derived (implied gross profit) and its assumption is on the slide. The archived version 5 had 98 of 98 figures traced.
 
 **Case 02.** Six official files were downloaded from Microsoft's investor-relations site and recorded with their SHA-256 checksums. Then:
 - 15 of 15 statement ties hold (for example revenue − cost of revenue = gross margin; segments sum to the total).
@@ -39,7 +39,7 @@ Measured result: 0 pictures (4 native tables, 1 native chart); median text-line 
 | Check | Result |
 |---|---|
 | Automated pipeline, full run with private source files | 16 of 16 steps passed |
-| Unit tests | 82 passed |
+| Unit tests | 82 passed on 14 October 2026; more than 200 passed on 17 October 2026 |
 | Case 02: slide values against the official statements | 85 of 85 |
 | Case 02: reconstruction text against an internally checked reference transcription | 7 of 7 slides match |
 | Case 02: OCR text-agreement test (threshold 0.98) | FAIL on 3 of 7 slides (0.978, 0.969, 0.976), retained. On known text the OCR reaches only 0.957 to 0.974 on 5 slides |
@@ -55,3 +55,20 @@ Measured result: 0 pictures (4 native tables, 1 native chart); median text-line 
 - **Human direction (the portfolio owner):** set the objectives, scope, requirements, and acceptance standards; chose the two cases; made the decisions on scope, privacy, and publication; and approved the public text.
 - **AI-assisted implementation:** an AI coding assistant (Claude, by Anthropic) wrote the code and the tests, ran the pipeline, carried out the internal inspections, and drafted the analyses and documents under the owner's direction. The blind reconstruction was done by a separate AI agent instance with restricted access.
 - **Review:** all internal checks were done by automated tests or by the AI assistant. No independent human reviewer has checked the work yet.
+
+## 6. Update, 17 October 2026: Case 01 v6 and Case 02 v2
+Both redesigns were rebuilt to the project's draft Sales Presentation Engineering Standard. The standard is DRAFT / NOT CERTIFIED. It is a working method, not a certification, and no deck is claimed to conform to it.
+
+| Check | Result |
+|---|---|
+| Case 01 v6, presenter deck (9 slides): figures traced | 96 of 96 |
+| Case 01 v6, leave-behind (10 slides): figures traced | 96 of 96 |
+| Case 01 v6: automated deck checks | presenter 100 pass, 0 fail; leave-behind 110 pass, 0 fail |
+| Case 02 v2 (10 and 11 slides): figures of the first redesign traced in v2 | 117 of 117, plus 1 declared addition |
+| Case 02 v2: automated deck checks | presenter 110 pass, 0 fail; leave-behind 120 pass, 0 fail |
+| Case 02: OCR text-agreement test | FAIL on 3 of 7 slides, kept as recorded; not rerun |
+| AI-model reviews of the first builds (two models), findings fixed | Internal review, not independent validation |
+| PowerPoint Accessibility Checker, screen reader, independent comprehension test, independent human review | NOT TESTED |
+| Reviewer scores | NOT ASSESSED |
+
+Each slide of both redesigns has a Changed / Unchanged / Why record in its reasoning log. Case 01 deck v5 is kept as the previous version.

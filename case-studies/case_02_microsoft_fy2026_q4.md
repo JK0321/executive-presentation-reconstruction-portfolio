@@ -48,10 +48,24 @@ All values were calculated in this project from the official statements (three m
 ## What the review found in the original
 The original is a professionally produced deck, and its numbers are right: no figure needs correction. The main issues are about access and reuse. Every slide is a single picture, so the text cannot be searched, copied, or read by a screen reader, and the machine-generated picture descriptions omit most figures (one misstates the period). Two minor factual issues were found: one slide repeats the page number of another, and the cover uses a different typeface from the rest of the deck. The other findings are design choices, for example topic titles instead of conclusions, and segment growth shown as rates without each segment's dollar contribution (Intelligent Cloud added 69.5 % of the revenue increase). The redesign keeps what works (the consistent footnotes, the zero-based segment chart, GAAP and constant-currency growth side by side, the trend tables, and the reconciliation appendix) and adds a result-first summary and explicit drivers.
 
+## Redesign v2 (described, not published)
+Version 2 applies the project's draft Sales Presentation Engineering Standard (DRAFT / NOT CERTIFIED; no conformance claimed). It has two delivery modes: a 10-slide presenter deck and an 11-slide standalone leave-behind with a reading guide first.
+
+| Check (17 October 2026) | Result | Evidence level |
+|---|---|---|
+| Figures of the first redesign traced in v2 | 117 of 117, plus 1 declared addition in the opening title | automated |
+| Automated deck checks, presenter deck | 110 pass, 0 fail | automated |
+| Automated deck checks, leave-behind | 120 pass, 0 fail | automated |
+| Rebuild text against the internally checked reference transcription (unchanged) | 7 of 7 slides: F1 1.000 | automated comparison |
+| Rebuild text, OCR agreement (threshold 0.98) | FAIL on 3 of 7 slides, kept as recorded; not rerun for v2 | automated |
+
+A new decision slide asks the reader to agree which of three open questions to take to management. It gives no investment advice. The data-notes slide lists the omitted steps (market insight, future state as a scope choice, business case) and why. The v2 decks are not published because they present Microsoft material.
+
 ## Limits
 - The executive redesign and the rebuilt slides are not shown here: they reproduce or present Microsoft material, and publishing them needs a separate decision.
 - The reference transcription for the text check depends on documented internal corrections; an independent reviewer has not yet checked them.
 - Accessibility was checked by script only; the PowerPoint Accessibility Checker and a screen-reader test have not been run.
+- No independent comprehension test or independent human review has been done. Reviewer scores are NOT ASSESSED.
 
 ## Capabilities demonstrated
 Financial verification against primary sources; independent recalculation with stated formulas and rounding; blind image-to-PowerPoint reconstruction under an access boundary; measurement design that separates instrument error from reconstruction error; transparent status reporting.
